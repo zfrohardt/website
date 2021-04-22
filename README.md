@@ -1,3 +1,3 @@
 # website
 
-My website is available at https://zfrohardt.github.io/website/
+My website is available at https://frohardt.org
