@@ -1,5 +1,6 @@
 body {
     background: #010815;
+    color: #fafafa;
 }
 
 /*
@@ -16,18 +17,31 @@ h1 {
 }
 
 h2 {
-    color: #fff;
+    color: #fafafa;
 }
 
-.parent {
+.flex-container {
     display: flex;
-    height: 99vh;
+    flex-flow: column nowrap;
+    height: 100vh;
     padding: 0;
     margin: 0;
     overflow: hidden;
+    justify-content: space-between;
 }
 
-.child {
-    overflow: hidden;
-    margin: auto;
+#header {
+    background-color: red;
+}
+
+#body {
+    background-color: green;
+}
+
+#footer {
+    background-color: blue;
+}
+
+.flex-child {
+    height: 300px;
 }
