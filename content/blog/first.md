@@ -5,6 +5,8 @@ date = 2021-04-22
 
 Bitcoin can seem strange at first: after all, how can money come from nothing? How can it be ethereal, living only online without physical form, or without a central authority, company, or government managing its production and use? The answer is the process known as bitcoin mining. In this blog post, I will take you on a short tour of bitcoin mining, how it works, a brief history of development in the space, and some thoughts on the current news surrounding bitcoin mining, as well as some possible future directions the industry might take in the future.
 
+<!-- more -->
+
 # What is Bitcoin Mining?
 To understand the process of mining, one must first understand the cryptographic primitive that underlies it. The mining process was adapted from a 2002 paper written by Adam Back called Hashcash. Hashcash, which sounds like it might be a currency in and of itself, was actually proposed as a solution to the problem of email spam. The idea was simple: what if there was some function that was difficult to calculate, but easy to verify? An email server could then send a challenge to anyone who wanted to send an message to their users. An honest user could calculate this function, and return the answer. But a spammer, who would be sending thousands of near worthless messages, would have to calculate this difficult function thousands of times, while the server would easily be able to check to make sure the spammer was putting in the work. 
 
