@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frohardt.org/sitemap.xml
