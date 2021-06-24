@@ -5,7 +5,7 @@ date = 2021-06-24
 
 There is usually some confusion around the term "address" in Bitcoin. This confusion seems to stem from a fundamental misunderstanding about how the Bitcoin ledger is structured and how transactions work to update the state of this ledger. In this article, we will discuss the UTXO Model in Bitcoin and its implications are for the usability, privacy, and scalability of the network. We will also dive into future improvements that may be coming to the storage and manipulability of UTXOs and the UTXO set.
 
-<!- more ->
+<!-- more -->
 
 # What is a UTXO?
 Before we answer this, lets picture transactions in Bitcoin to get a better understanding about the structure of the system. Bitcoin can be thought of as a list of transactions, and these transactions are composed of inputs, outputs, and a cryptographic proof that proves authorization to move the funds in the inputs to the outputs. There is also a transaction fee, which is defined as the difference between the sum of the inputs minus the sum of the outputs, so it is implicitly carried and never explicitly appears in a transaction. A transaction can have as many inputs as it wants and as many outputs as it wants (though there are still size restrictions). All inputs in the system have to come from the output of another transaction, and thus transaction outputs can have one of two states: spent, or unspent.
