@@ -1,6 +1,6 @@
 +++
 title = "Bitcoin's Mempool"
-date = 2021-06-12
+date = 2021-07-12
 +++
 
 Most everyone who has heard of Bitcoin has heard of the blockchain: Bitcoin's famed datastructure that when coupled with Proof-of-Work gives rise to its properties as a digital cash system. Fewer people have heard of Bitcoin's mempool, an equally important datastructure that gives rise to Bitcoin's security model and ultimately contributes to its effeciency and resiliency. In this post, we will briefly cover the important functions of the mempool, as well as some improvements that will hopefully be coming in the next several years.
